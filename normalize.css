@@ -52,7 +52,7 @@ code {
 /* normalize the button element
  **********************************/
 button {
-  appearance: button;
+  /* appearance: button; */
   border: .2em lightgray outset;
   padding: .3em .6em;
   background: #ddd;
@@ -62,3 +62,8 @@ button:active {
   border-style: inset;
 }
 
+/* normalize the text input elements 
+ ***************************************/
+input[type=text] {
+  
+}
