@@ -63,8 +63,12 @@ button:active {
   border-style: inset;
 }
 
-/* normalize the text input elements 
- ***************************************/
-input[type=text] {
-  
+/* normalize text input elements 
+ * TODO - apply this to password, email, etc text elements
+ *********************************/
+input:not([type]),
+input[type="text"] {
+  border: .2em lightgray solid;
+  padding: .3em .6em;
+  border-radius: .2em;
 }
