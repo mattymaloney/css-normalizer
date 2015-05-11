@@ -54,6 +54,7 @@ code {
 button {
   /* appearance: button; */
   border: .2em lightgray outset;
+  border-radius: .2em;
   padding: .3em .6em;
   background: #ddd;
 }
